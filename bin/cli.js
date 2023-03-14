@@ -11,8 +11,7 @@ try {
   // Read JSON data files
   const result = fs.readFileSync(path.resolve(__dirname, "../info.json"));
   const userDate = JSON.parse(result);
-  const { first_name, last_name, job_title, goal, github_link, linkedin_link } =
-    userDate;
+  const { job_title, goal, aim, github_link, linkedin_link } = userDate;
 
   const styledData = {
     labelWork: chalk.cyan("💻 Work:"),
@@ -21,8 +20,11 @@ try {
     labelGitHub: chalk.cyan("✨ GitHub:"),
     gitHub: chalk.white(github_link),
 
-    labelGoal: chalk.cyan("🎯 Goal:"),
+    labelGoal: chalk.cyan("🎯 2023 Goal:"),
     goal: chalk.white(goal),
+
+    labelAim: chalk.cyan("🌱 Aim:"),
+    aim: chalk.white(aim),
 
     labelLinkedIn: chalk.cyan("🌐 LinkedIn:"),
     linkedIn: chalk.white(linkedin_link),
@@ -47,6 +49,8 @@ try {
     `${styledData.labelWork}  ${styledData.work}` +
     newline +
     `${styledData.labelGoal}  ${styledData.goal}` +
+    newline +
+    `${styledData.labelAim}  ${styledData.aim}` +
     newline +
     `${styledData.labelGitHub}  ${styledData.gitHub}` +
     newline +

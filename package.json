@@ -4,14 +4,12 @@
   "description": "cool way to generate busines card :D",
   "main": "./bin/cli.js",
   "bin": {
-    "business-card": "./bin/cli.js"
+    "esha-business-card": "./bin/cli.js"
   },
   "scripts": {
     "start": "node ./bin/cli.js"
   },
   "keywords": [
-    "business-",
-    "card",
     "business",
     "card",
     "npm"
