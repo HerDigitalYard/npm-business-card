@@ -18,7 +18,7 @@ try {
     work: chalk.white(job_title),
 
     labelGitHub: chalk.cyan("✨ GitHub:"),
-    gitHub: chalk.white(github_link),
+    gitHub: chalk.yellow.underline(github_link),
 
     labelGoal: chalk.cyan("🎯 2023 Goal:"),
     goal: chalk.white(goal),
@@ -27,10 +27,10 @@ try {
     aim: chalk.white(aim),
 
     labelLinkedIn: chalk.cyan("🌐 LinkedIn:"),
-    linkedIn: chalk.white(linkedin_link),
+    linkedIn: chalk.yellow.underline(linkedin_link),
 
     labelCard: chalk.cyan("🔗 Card:"),
-    npxCard: chalk.white.underline("npx biolinks"),
+    npxCard: chalk.yellow.underline("npx biolinks"),
   };
 
   const newline = "\n\n";
