@@ -1,6 +1,6 @@
 {
   "name": "esha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cool way to generate busines card :D",
   "main": "./bin/cli.js",
   "bin": {

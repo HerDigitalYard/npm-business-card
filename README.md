@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/Esha98" target="_blank">
-    <img src="media/made-for-knowledge.svg" alt="made for knowledge" />
+    <img src="made-for-knowledge.svg" alt="made for knowledge" />
  </a>
   <a href="https://github.com/Esha98" target="_blank">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built with love badge" />
@@ -30,7 +30,7 @@ npx esha-business-card
 
 The end product may look like this:
 
-![](media/Demo.png)
+![](Demo.png)
 
 ## Used Packages
 
