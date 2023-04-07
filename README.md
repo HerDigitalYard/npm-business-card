@@ -20,7 +20,7 @@
 
 I hope you find this repository useful! If so, please consider giving it a ⭐ to show your support ❤️
 
-Hit this command in your terminal👇
+**Hit this command** in your terminal👇
 
 ```
 npx esha-business-card
