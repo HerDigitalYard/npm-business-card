@@ -20,6 +20,13 @@
 
 I hope you find this repository useful! If so, please consider giving it a ⭐ to show your support ❤️
 
+Hit this command in your terminal👇
+
+```
+npx esha-business-card
+
+```
+
 ## Screenshot
 
 The end product may look like this:
@@ -33,9 +40,3 @@ The end product may look like this:
 - [chalk](https://www.npmjs.com/package/chalk) : Terminal string styling
 
 - [figlet](https://www.npmjs.com/package/figlet) : Stylish Texts
-
-## Try it
-
-```sh
-$ npx esha-business-card
-```
