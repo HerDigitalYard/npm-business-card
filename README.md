@@ -24,7 +24,6 @@ Hit this command in your terminal👇
 
 ```
 npx esha-business-card
-
 ```
 
 ## Screenshot
