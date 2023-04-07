@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/Esha98" target="_blank">
-    <img src="made-for-knowledge.svg" alt="made for knowledge" />
+    <img src="media/made-for-knowledge.svg" alt="made for knowledge" />
  </a>
   <a href="https://github.com/Esha98" target="_blank">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built with love badge" />
@@ -30,21 +30,9 @@ The end product may look like this:
 
 - [boxen](https://www.npmjs.com/package/boxen) : Create boxes in the terminal
 
-![](media/boxen.png)
-
 - [chalk](https://www.npmjs.com/package/chalk) : Terminal string styling
 
-![](media/chalk.png)
-
 - [figlet](https://www.npmjs.com/package/figlet) : Stylish Texts
-
-```
-  _   _      _ _        __        __         _     _ _ _
- | | | | ___| | | ___   \ \      / /__  _ __| | __| | | |
- | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` | | |
- |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |_|_|
- |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_(_|_)
-```
 
 ## Try it
 
