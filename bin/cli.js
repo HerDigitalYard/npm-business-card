@@ -18,7 +18,7 @@ try {
     work: chalk.white(job_title),
 
     labelGitHub: chalk.cyan("✨ GitHub:"),
-    gitHub: chalk.yellow.underline(github_link),
+    gitHub: chalk.yellow(github_link),
 
     labelGoal: chalk.cyan("🎯 2023 Goal:"),
     goal: chalk.white(goal),
@@ -27,10 +27,10 @@ try {
     aim: chalk.white(aim),
 
     labelLinkedIn: chalk.cyan("🌐 LinkedIn:"),
-    linkedIn: chalk.yellow.underline(linkedin_link),
+    linkedIn: chalk.yellow(linkedin_link),
 
     labelCard: chalk.cyan("🔗 Card:"),
-    npxCard: chalk.yellow.underline("npx biolinks"),
+    npxCard: chalk.white("npx esha") + " " + chalk.yellow('https://www.npmjs.com/package/esha?activeTab=readme'),
   };
 
   const newline = "\n\n";
@@ -69,6 +69,15 @@ try {
   };
 
   console.log(chalk.green(boxen(output, options)));
+
+  const tip = [
+    `Tip: Try ${chalk.cyanBright.bold(
+        "cmd/ctrl + click"
+      )} on the links`,
+      '',
+  ].join("\n\n");
+  console.log(tip);
+
 } catch (err) {
   console.log(chalk.bgRed.bold(`Cannot read file!`));
   console.log(chalk.italic(err.message));

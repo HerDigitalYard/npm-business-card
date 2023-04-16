@@ -1,18 +1,28 @@
 {
   "name": "esha",
-  "version": "1.0.1",
-  "description": "cool way to generate busines card :D",
+  "version": "2.0.0",
+  "description": "Cool Business Card for Esha (@esha98)",
   "main": "./bin/cli.js",
   "bin": {
-    "esha-business-card": "./bin/cli.js"
+    "esha": "./bin/cli.js"
   },
+  "homepage": "https://github.com//Esha98/npm-business-card#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Esha98/npm-business-card.git"
+  },
+  "funding": "https://github.com/sponsors/Esha98?preview=true",
   "scripts": {
     "start": "node ./bin/cli.js"
   },
   "keywords": [
-    "business",
+    "npx card",
+    "npm card",
+    "business card",
+    "npm",
+    "npx",
     "card",
-    "npm"
+    "business"
   ],
   "author": "Esha Shah",
   "license": "MIT",
