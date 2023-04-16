@@ -27,7 +27,7 @@ npx esha
 
 The end product may look like this:
 
-![](demo.png)
+![](Demo.png)
 
 ## Used Packages
 
