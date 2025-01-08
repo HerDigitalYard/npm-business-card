@@ -1,14 +1,14 @@
 # NPM Business Card
 
 <p align="center">
-   <a href="https://github.com/Esha98" target="_blank">
+   <a href="https://www.linkedin.com/in/herdigitalyard/" target="_blank">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built with love badge" />
    </a>
    <br />
-   <a href="https://github.com/Esha98" target="_blank">
+   <a href="https://www.linkedin.com/in/herdigitalyard/" target="_blank">
       <img src="https://forthebadge.com/images/badges/check-it-out.svg" alt="check it out badge" />
    </a>
-   <a href="https://github.com/Esha98" target="_blank">
+   <a href="https://www.linkedin.com/in/herdigitalyard/" target="_blank">
       <img src="https://forthebadge.com/images/badges/built-by-developers.svg" alt="built by developers badge" />
    </a>
 </p>
