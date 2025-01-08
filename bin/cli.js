@@ -20,7 +20,7 @@ try {
     labelGitHub: chalk.cyan("✨ GitHub:"),
     gitHub: chalk.yellow(github_link),
 
-    labelGoal: chalk.cyan("🎯 2023 Goal:"),
+    labelGoal: chalk.cyan("🎯 2025 Goal:"),
     goal: chalk.white(goal),
 
     labelAim: chalk.cyan("🌱 Aim:"),
@@ -72,9 +72,9 @@ try {
 
   const tip = [
     `Tip: Try ${chalk.cyanBright.bold(
-        "cmd/ctrl + click"
-      )} on the links`,
-      '',
+      "cmd/ctrl + click"
+    )} on the links`,
+    '',
   ].join("\n\n");
   console.log(tip);
 
